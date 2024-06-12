@@ -1,0 +1,43 @@
+.campaign-list {
+  padding: 20px;
+  text-align: center;
+}
+
+.campaign-list h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.campaign-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.campaign-list li {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.campaign-list li h3 {
+  margin: 0;
+  font-size: 20px;
+  color: #333;
+}
+
+.campaign-list li p {
+  margin: 10px 0;
+  color: #555;
+}
+
+.campaign-list li small {
+  color: #999;
+}
+
+.no-data-message {
+  font-size: 24px; /* Make the text bigger */
+  color: #ff0000; /* Change the text color to red */
+  font-weight: bold; /* Make the text bold */
+  margin-top: 20px;
+}

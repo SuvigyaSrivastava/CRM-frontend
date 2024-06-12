@@ -1,0 +1,74 @@
+.home-container {
+    padding: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.logo {
+    position: absolute;
+    top: 20px; /* Adjust top position as needed */
+    left: 20px; /* Adjust left position as needed */
+    width: 80px; /* Adjust width to make it larger */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.user-info {
+    position: absolute;
+    top: 20px; /* Adjust top position as needed */
+    right: 20px; /* Adjust right position as needed */
+    display: flex;
+    align-items: center;
+}
+
+.user-info img {
+    width: 40px; /* Adjust image size as needed */
+    height: 40px; /* Adjust image size as needed */
+    border-radius: 50%;
+    margin-right: 10px; /* Space between image and text */
+}
+
+.user-info p {
+    font-size: 14px;
+    color: #333; /* Adjust text color as needed */
+}
+
+.center-content {
+    text-align: center;
+}
+
+.center-content h1 {
+    font-size: 36px; /* Increase the font size */
+    font-family: 'Arial', sans-serif; /* Use a modern, clean font family */
+    color: #333; /* Adjust text color */
+    margin-bottom: 20px; /* Add some spacing below the heading */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+button {
+    margin-top: 20px; /* Adjust margin between buttons as needed */
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:nth-child(2) {
+    background-color: #ff0000; /* Create Campaign button color */
+    color: #fff; /* Button text color */
+    border: none;
+}
+
+button:nth-child(3) {
+    background-color: #2831a7; /* Manage Campaigns button color */
+    color: #ffffff; /* Button text color */
+    border: none;
+}
+
+button:last-child {
+    background-color: #dc3535; /* Logout button color */
+    color: #fff; /* Button text color */
+    border: none;
+}
